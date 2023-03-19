@@ -13,9 +13,9 @@ architecture tb of Hw7Q1FSMSolnTB is
     constant clk_period: time := 10 ns;
     signal state_cnt: integer := 0;
 begin
-    dut: entity work.Hw7Q1FSMSoln
+    dut: entity work.Hw7Q1FSM
     port map (clk => clk, rst => rst, w => w,
-    z => z, Idle => Idle);
+    z => z, InIdle => Idle);
 
     clk <= not clk after clk_period/2;
 
@@ -26,7 +26,7 @@ begin
         rst <= '0';
 
         w <= "11";
-         for clk_period;
+        wait for clk_period;
         assert z = '0' report "w same 1 time, z should be 0";
 
         -- complete. leaving w bits the same for 2 more clk periods

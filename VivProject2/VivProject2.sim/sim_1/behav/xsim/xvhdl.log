@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/SchoolWork/VivadoProjects/DSD2-HW7/VivProject2/VivProject2.srcs/sources_1/imports/DSD2-HW7/Exercise3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Hw6Q5Mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/SchoolWork/VivadoProjects/DSD2-HW7/VivProject2/VivProject2.srcs/sim_1/imports/DSD2-HW7/Exercise3TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Exc3tb'

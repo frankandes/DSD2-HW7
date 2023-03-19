@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VivProject3.srcs/sources_1/imports/DSD2-HW7/Exercise4.vhd" \
+"../../../../VivProject3.srcs/sim_1/imports/DSD2-HW7/Exercise4TB.vhd" \
+
+# Do not sort compile order
+nosort
